@@ -8,7 +8,7 @@ export async function POST() {
   try {
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-    const prompt = "Generate a short, humorous random unique joke about farts suitable for all ages. Please provide joke content with a suitable image appropriate to the meaning of the joke";
+    const prompt = "Create a short, original, and family-friendly joke about farts that is unique and has never been used before. Each joke should have a clever twist or unexpected punchline, suitable for all ages. Avoid clichés and ensure the humor feels fresh and imaginative. Provide content that pairs well with a lighthearted, cartoon-style illustration to convey the joke's essence.";
 
 
     const result :any= await model.generateContent(prompt);

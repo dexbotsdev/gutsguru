@@ -12,6 +12,11 @@ export function Header() {
             <span className="px-2 py-1 rounded-md bg-primary/10 text-primary text-sm">Beta</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 ml-6"> 
+            <Link href="/fartsdj" className="text-sm font-medium hover:text-primary">
+              FartsDJ3000
+            </Link>
+          </nav>
+          <nav className="hidden md:flex items-center gap-6 ml-6"> 
             <Link href="/symptoms" className="text-sm font-medium hover:text-primary">
               Symptoms Check AI
             </Link>
